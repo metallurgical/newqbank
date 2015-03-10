@@ -1,0 +1,1117 @@
+@charset "utf-8";
+/* CSS Document */
+
+/***** Style *****/
+* {
+	margin:0 auto;
+}
+body {
+	background-image:url(../images/bg.png);
+	background-attachment:fixed;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+#header {
+	background-image:url(../images/header.jpg);
+	height:216px;
+	width:900px;
+}
+#content {
+	background-image:url(../images/content.png);
+	height:36px;
+	width:897px;
+}
+#footer {
+	background-image:url(../images/footer.png);
+	height:120px;
+	width:897px;
+}
+a img {
+	text-decoration: none;
+	border: 0 none;
+	outline: none;
+}
+a:hover img {
+	text-decoration: none;
+	border: 0 none;
+	outline: none;
+}
+a {
+	text-decoration: none;
+	font-weight:bold;
+	color:#036;
+	border: 0 none;
+	outline: none;
+}
+a:hover {
+	text-decoration: none;
+	font-weight:bold;
+	color:#900;
+	border: 0 none;
+	outline: none;
+}
+.tulisanumum {
+	font-family: Verdana, Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+.tulisankelabu {
+	font-family: Verdana, Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color:#999999;
+}
+.tulisanamaran {
+	font-family: Verdana, Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	color:#F00;
+}
+.besarkan {
+	font-size: 18px;
+	font-weight: bolder;
+}
+.input, .select, .file {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #CCC;
+	color:#333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:4px;
+}
+
+.double_underline {
+	border-bottom: 3px double;
+}
+/* Container */
+#copy{
+	margin:0;
+	padding:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+/* Copy */
+h1{
+	font-family:Tahoma, Verdana, Arial;
+	font-size:46px;
+	font-weight:bold;
+	color:#cc0000;
+}
+
+h2{
+	font-family:Tahoma, Verdana, Arial;
+	font-size:30px;
+	font-weight:bold;
+	color:#212121;
+}
+h3{
+	font-family:Tahoma, Verdana, Arial;
+	font-size:26px;
+	font-weight:bold;
+	color:#cc0000;
+}
+
+h4{
+	font-family:Tahoma, Verdana, Arial;
+	font-size:20px;
+	font-weight:bold;
+	color:#212121;
+}
+#submitpad {
+  padding: 4px;
+  background-color: #ff0000;
+  margin: 0px;
+  border-width: 3px;
+  border-color: #ff0000;
+  border-spacing: 0;
+}
+.paginate {
+	margin: 5px 0 0 0;
+}
+
+a.paginate {
+	border: 1px solid #1A4D80;
+	padding: 2px 6px 2px 6px;
+	text-decoration: none;
+	color: #1A4D80;
+}
+
+
+a.paginate:hover {
+	background-color: #1A4D80;
+	color: #FFF;
+	text-decoration: none;
+}
+h1 {
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	margin: 0;
+	padding: 0;
+}
+
+/***** Button *****/
+a.butang {
+	/* display:block;
+	float:left;	*/
+	display:inline-block;
+	text-decoration:none;
+	background-position: 5px;
+	background-repeat:no-repeat;
+	font-weight:bold;
+	font-family: Trebuchet MS, Tahoma, sans-serif;
+	font-size: 1em;
+	/* font-family: Verdana, Arial, Tahoma, sans-serif;
+	font-size:12px; */
+	text-decoration:none;
+	text-indent:0px;
+	color:#333333;
+	background-color:#EAEAD7; /* F9E49C; */
+	border:#CCCCCC solid 1px;
+	height:10px;
+	line-height:15px;
+	margin:1px;
+}
+.butangtawaran {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #DDD;
+	height:50px;
+	color:#333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:13px;
+	padding:5px;
+}
+.butangtambah {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #DDD;
+	text-align:center;
+	vertical-align:middle;
+	color:#333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+a:hover {
+	background-color:#FFFFFF;
+	color:#000000;
+}
+
+.butang {
+	/* display:block;
+	float:left;	*/
+	display:inline-block;
+	text-decoration:none;
+	background-position: 5px;
+	background-repeat:no-repeat;
+	font-weight:bold;
+	font-family: Trebuchet MS, Tahoma, sans-serif;
+	font-size: 1em;
+	/* font-family: Verdana, Arial, Tahoma, sans-serif;
+	font-size:12px; */
+	text-decoration:none;
+	text-indent:0px;
+	color:#333333;
+	background-color:#EAEAD7; /* F9E49C; */
+	border:#CCCCCC solid 1px;
+	height:30px;
+	line-height:0px;
+	margin:1px;
+}
+.butang:hover {
+	background-color:#FFFFFF;
+	color:#000000;
+}
+.button {
+	/* display:block;
+	float:left;	*/
+	display:inline-block;
+	text-decoration:none;
+	background-position: 5px;
+	background-repeat:no-repeat;
+	font-weight:bold;
+	font-family: Trebuchet MS, Tahoma, sans-serif;
+	font-size: 1em;
+	/* font-family: Verdana, Arial, Tahoma, sans-serif;
+	font-size:12px; */
+	text-decoration:none;
+	text-indent:0px;
+	color:#333333;
+	background-color:#EAEAD7; /* F9E49C; */
+	border:#CCCCCC solid 1px;
+	height:20px;
+	line-height:15px;
+	margin:1px;
+}
+.tambah {
+	background-image:url(../images/icons/add.png);
+	padding: 0px 0px 0px 15px;
+	text-align:left;
+}
+.kemaskini {
+	background-image:url(../images/icons/kemaskini.png);
+	padding:5px 10px 10px 25px;
+	text-align:left;
+}
+.tutup {
+	background-image:url(../images/icons/tutup.png);
+	padding:5px 10px 10px 25px;
+	text-align:left;
+}
+.hapus {
+	background-image:url(../images/icons/delete.png);
+	padding:5px 10px 10px 25px;
+	text-align:left;
+}
+.butangkecil {
+	display:inline-block;
+	text-decoration:none;
+	text-indent:0px;
+	height:23px;
+	padding:0 0 0 3px;
+	font-size:11px;
+	font-weight:bold;
+	color:#666;
+	background:url(../images/butangkecil_matrix.png) 0 0 no-repeat;
+	white-space:nowrap;
+	border:none;
+	overflow:visible;
+	cursor:pointer;
+	margin:2px;
+}
+.butangadmin {
+	display:inline-block;
+	text-decoration:none;
+	background-position:0 -90px;
+	text-decoration:none;
+	text-indent:0px;
+	height:23px;
+	padding:0 0 0 3px;
+	font-size:11px;
+	font-weight:bold;
+	color:#fff;
+	text-shadow:1px 1px 1px #666;
+	background:url(../images/butangkecil_matrix2.png) 0 0 no-repeat;
+	white-space:nowrap;
+	border:none;
+	overflow:visible;
+	cursor:pointer;
+	margin:2px;
+}
+.butangbiru {
+	display:inline-block;
+	text-decoration:none;
+	background-position:0 -90px;
+	text-decoration:none;
+	text-indent:0px;
+	height:23px;
+	padding:0 0 0 3px;
+	font-size:11px;
+	font-weight:bold;
+	color:#fff;
+	text-shadow:1px 1px 1px #666;
+	background:url(../images/butang_matrix_biru.png) 0 0 no-repeat;
+	white-space:nowrap;
+	border:none;
+	overflow:visible;
+	cursor:pointer;
+	margin:2px;
+}
+.butanghitam {
+	display:inline-block;
+	text-decoration:none;
+	background-position:0 -90px;
+	text-decoration:none;
+	text-indent:0px;
+	height:23px;
+	padding:0 0 0 3px;
+	font-size:11px;
+	font-weight:bold;
+	color:#fff;
+	text-shadow:1px 1px 1px #666;
+	background:url(../images/butang_matrix_hitam.png) 0 0 no-repeat;
+	white-space:nowrap;
+	border:none;
+	overflow:visible;
+	cursor:pointer;
+	margin:2px;
+}
+input[type=text]+.butangkecil {
+	margin-left:0px;
+}
+button.butangkecil::-moz-focus-inner {
+	margin:-1px -3px;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+	line-height: 20px;
+}
+button.butangadmin::-moz-focus-inner {
+	margin:-1px -3px;
+}
+button.butangbiru::-moz-focus-inner {
+	margin:-1px -3px;
+}
+button.butanghitam::-moz-focus-inner {
+	margin:-1px -3px;
+}
+.butangkecil.amaran {
+	color:#FF0000;
+}
+.butangkecil span {
+	display:block;
+	height:23px;
+	text-decoration:none;
+	padding:0 10px 0 10px;
+	line-height:23px;
+	background:url(../images/butangkecil_matrix.png) 100% 0 no-repeat;
+}
+.butangadmin span {
+	display:block;
+	height:23px;
+	text-decoration:none;
+	padding:0 10px 0 8px;
+	line-height:23px;
+	background:url(../images/butangkecil_matrix2.png) 100% 0 no-repeat;
+}
+.butangbiru span {
+	display:block;
+	height:23px;
+	text-decoration:none;
+	padding:0 10px 0 8px;
+	line-height:23px;
+	background:url(../images/butang_matrix_biru.png) 100% 0 no-repeat;
+}
+.butanghitam span {
+	display:block;
+	height:23px;
+	text-decoration:none;
+	padding:0 10px 0 8px;
+	line-height:23px;
+	background:url(../images/butang_matrix_hitam.png) 100% 0 no-repeat;
+}
+.butangadmin:hover {
+	color:#666;
+	text-decoration:none;
+	text-shadow:none;
+	background-position:0 -90px;
+}
+.butangbiru:hover {
+	color:#666;
+	text-decoration:none;
+	text-shadow:none;
+	background-position:0 -90px;
+}
+.butanghitam:hover {
+	color:#666;
+	text-decoration:none;
+	text-shadow:none;
+	background-position:0 -90px;
+}
+.butangkecil:hover {
+	color:#fff;
+	text-decoration:none;
+	text-shadow:1px 1px 1px #666;
+	background-position:0 -90px;
+}
+.butangkecil.amaran:hover {
+	background-position:0 -90px;
+}
+.butangkecil:hover span {
+	background-position:100% -90px;
+}
+.butangadmin:hover span {
+	background-position:100% -90px;
+}
+.butangbiru:hover span {
+	background-position:100% -90px;
+}
+.butanghitam:hover span {
+	background-position:100% -90px;
+}
+.butangkecil.amaran:hover span {
+	background-position:100% -90px;
+}
+.butangkecil.mousedown {
+	background-position:0 -60px;
+}
+.butangkecil.amaran.mousedown {
+	background-position:0 -120px;
+}
+.butangkecil.mousedown span {
+	background-position:100% -60px;
+}
+.butangkecil.amaran.mousedown span {
+	background-position:100% -120px;
+}
+
+/***** Border *****/
+#shadow {
+	border: 1px solid #f0f0f0;
+	border-bottom: 2px solid #ccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.box {
+	margin: 0px auto;
+	margin-top: 10px;
+	padding: 10px;
+}
+#dark {
+	background: #222;
+	color: #fff;
+}
+.container {
+	margin: 0px auto;
+	margin-top: 10px;
+	padding: 20px;
+}
+#pressed {
+	color: #fff;
+	background: #111;
+	border: 1px solid #000;
+	border-right: 1px solid #353535;
+	border-bottom: 1px solid #353535;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#liquid-round {
+	margin: 10px auto;
+	background:#fff url(../gambar/border/leftside.gif) repeat-y left top;
+}
+.top {
+	width:100%;
+	height:20px;
+	background:url(../gambar/border/top.gif) no-repeat left top;
+}
+.top span {
+	display:block;
+	position:relative;
+	height:20px;
+	background:url(../gambar/border/top-right.gif) no-repeat right top;
+}
+.center-content {
+	position:relative;
+	background:url(../gambar/border/rightside.gif) repeat-y right top;
+	padding:1px 20px 1px 25px;
+	margin:-1px 0 -50px 0;
+}
+.bottom {
+	width:100%;
+	height:60px;
+	background:url(../gambar/border/bottom.gif) no-repeat left bottom;
+}
+.bottom span {
+	display:block;
+	position:relative;
+	height:60px;
+	background:url(../gambar/border/bottom-right.gif) no-repeat right top;
+}
+.kotak-garis-putus-merah-halus {
+	border: 1px dashed #cc0000;
+	background-color: #FBEEEB;
+	padding: 10px;
+	margin: 10px;
+}
+.kotak-garis-putus-merah-tebal {
+	background-color: #FFFFDD;
+	border: 5px dashed #CC0000;
+	margin: 10px;
+	padding: 10px;
+}
+.kotak-bulat-garis-putus-merah {
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	background-color:#FFFFDD;
+	border: 3px dashed #CC0000;
+	border-radius:10px;
+	margin: 10px;
+	padding: 10px;
+}
+.kotak-garis-putus-merah {
+	margin: 10px;
+	padding: 10px;
+	border: 3px dashed #CC0000;
+}
+.kotak-garis-putus-biru {
+	margin: 10px;
+	padding: 10px;
+	border: 3px dashed #0000FF;
+}
+.kotak-garis-putus-hijau {
+	margin: 10px;
+	padding: 10px;
+	border: 3px dashed #006600;
+}
+.kotak-garis-putus-kuning {
+	margin: 10px;
+	padding: 10px;
+	border: 3px dashed #FFFF00;
+}
+.kotak-garis-putus-hitam {
+	margin: 10px;
+	padding: 10px;
+	border: 3px dashed #000000;
+}
+.kotak-garis-putus-kelabu {
+	margin: 10px;
+	padding: 10px;
+	border: 3px dashed #666666;
+}
+.kotak-garis-putus-kelabu-bg {
+	color: #666;
+	background-color: #EBEBEB;
+	margin: 10px;
+	padding: 10px;
+	border: dashed;
+	border-width: 2px;
+	border-color: #666;
+}
+.kotak-halus {
+	margin: 10px;
+	padding: 10px;
+	border:1px solid #666;
+	background:#fff;
+}
+.kotak-halus h1 {
+	margin: 10px;
+	padding: 10px;
+	background:#efece6;
+}
+.kotak-sederhana {
+	margin: 10px;
+	padding: 10px;
+	border:3px solid #666;
+	background:#fff;
+}
+.kotak-tebal {
+	margin: 10px;
+	padding: 10px;
+	border:5px solid #666;
+	background:#fff;
+}
+.kotak-outline-merah {
+	margin: 10px;
+	padding: 10px;
+	background: none repeat scroll 0 0 #FFFFDD;
+	border: 2px solid #CC0000;
+}
+.kotak-outline-biru {
+	margin: 10px;
+	padding: 10px;
+	background: none repeat scroll 0 0 #DEF2F5;
+	border: 2px solid #B3DCE8;
+}
+.kotak-outline-kuning {
+	margin: 10px;
+	padding: 10px;
+	background: none repeat scroll 0 0 #FFC;
+	border: 2px solid #FFE4AE;
+}
+.kotak-outline-kelabu {
+	margin: 10px;
+	padding: 10px;
+	background: none repeat scroll 0 0 #f0f0f0;
+	border: 2px solid #cccccc;
+}
+.kotak-outline-kelabu-halus {
+	margin: 10px;
+	padding: 10px;
+	background-color: #F3F3F3;
+	border: 1px solid #E2E2E2;
+}
+.kotak-bulat-merah {
+	margin: 10px;
+	padding: 10px;
+	background: #FFFFDD;
+	border: 2px solid #CC0000;
+	border-radius: 10px;
+}
+.kotak-bulat-biru {
+	margin: 10px;
+	padding: 10px;
+	background: #cccdfd;
+	border: 2px solid #02021e;
+	border-radius: 10px;
+}
+.kotak-bulat-kelabu {
+	margin: 10px;
+	padding: 10px;
+	background: #EEEEEE;
+	border: 2px solid #CCCCCC;
+	border-radius: 10px;
+}
+.kotak-bulat-kelabu-halus {
+	margin: 10px;
+	padding: 10px;
+	background: #F6F6F6;
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+}
+/* ============== Mula Border SVFP ============== */
+.svfp_box {
+	background: url(../gambar/border/svfp_tl.jpg) no-repeat top left;
+}
+.svfp_top {
+	background: url(../gambar/border/svfp_tr.jpg) no-repeat top right;
+}
+.svfp_bottom {
+	background: url(../gambar/border/svfp_bl.jpg) no-repeat bottom left;
+}
+.svfp_bottom div {
+	background: url(../gambar/border/svfp_br.jpg) no-repeat bottom right;
+}
+.svfp_content {
+	background: url(../gambar/border/svfp_r.jpg) top right repeat-y;
+}
+.svfp_top div, .svfp_top, .svfp_bottom div, .svfp_bottom {
+	width: 100%;
+	height: 30px;
+	font-size: 1px;
+}
+.svfp_content, .svfp_bottom {
+	margin-top: 0px;
+}
+.svfp_content {
+	padding: 10px 35px 5px 40px;
+}
+
+/* ============== Tamat Border SVFP ============== */
+.borderkotakbarisputusmerah {
+	width: 99%;
+	margin-right: 0px;
+	margin-left: 0px;
+	border: 3px dashed #CC0000;
+	padding: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.kotakbarisputusmerah {
+	padding: 5px;
+	background-color: #FEFCD8;
+	font-family: Verdana, Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	background-image: url(../gambar/border/bg-kotakmerah.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.sub-tajuk-amaran {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color:#FFEEEE;
+	border: 3px dashed #CC0000;
+	border-radius:5px;
+	margin:20 20 20px 20px;
+	padding:8px 8px 8px 8px;
+	vertical-align:middle;
+	width:98%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.sub-tajuk-hijau-cun {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color:#EEFFFF;
+	border: 3px dashed #CCC;
+	border-radius:5px;
+	margin:20 20 20px 20px;
+	padding:8px 8px 8px 8px;
+	vertical-align:middle;
+	width:97.5%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#indented ul {
+	margin: 20px 0;
+	padding: 0;
+	list-style: none;
+}
+#indented ul li {
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #111;
+}
+#indented ul li:first-child {
+	border-top: none;
+}
+#indented ul li:last-child {
+	border-bottom: none;
+}
+#indented ul li a {
+	padding: 10px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+#indented ul li a:hover {
+	background: #111;
+}
+.teaser {
+	padding:0 0 0 11px;
+	margin:10px;
+	background:url(../gambar/border/tsr-l.gif) top left no-repeat;
+}
+.teaser h2 {
+	background:url(../gambar/border/tsr-r.gif) top right no-repeat;
+	margin:0;
+	padding:8px 0 0.5em 0;
+}
+.teaser p {
+	margin:0 0 0 -11px;
+	padding:0 11px 0.5em;
+	border:1px solid #d8d8d8;
+	border-width:0 1px;
+	background:#fff;
+}
+.teaser div {
+	margin:0 0 0 -11px;
+	padding-left:11px;
+	background:url(../gambar/border/tsr-l.gif) bottom left no-repeat;
+}
+.teaser a.more {
+	display:block;
+	text-align:right;
+	padding:0 10px 10px 0;
+	background:url(../gambar/border/tsr-r.gif) bottom right no-repeat;
+}
+.roundtop {
+	background-image: url(../gambar/border/rounded-top.jpg);
+	width: 315px;
+	height: 10px;
+}
+.roundside {
+	background-image: url(../gambar/border/rounded-sides.jpg);
+	background-repeat: repeat-y;
+	width: 315px;
+	text-align: center;
+}
+.roundbottom {
+	background-image: url(../gambar/border/rounded-bottom.jpg);
+	width: 315px;
+	height: 10px;
+}
+/* Default CSS
+================================================*/
+/* Basic styling, used when JavaScript is unsupported */
+
+/* Normal styling */
+.cb li {
+	margin-left:1em;
+}
+/* ============== Mula Rounded Cornr BG biru ============== */
+.roundedcornr_box_149463 {
+	background: url(../gambar/border/roundedcornr_149463_tl.png) no-repeat top left;
+}
+.roundedcornr_top_149463 {
+	background: url(../gambar/border/roundedcornr_149463_tr.png) no-repeat top right;
+}
+.roundedcornr_bottom_149463 {
+	background: url(../gambar/border/roundedcornr_149463_bl.png) no-repeat bottom left;
+}
+.roundedcornr_bottom_149463 div {
+	background: url(../gambar/border/roundedcornr_149463_br.png) no-repeat bottom right;
+}
+.roundedcornr_content_149463 {
+	background: url(../gambar/border/roundedcornr_149463_r.png) top right repeat-y;
+	padding: 10px;
+}
+.roundedcornr_top_149463 div, .roundedcornr_top_149463, .roundedcornr_bottom_149463 div, .roundedcornr_bottom_149463 {
+	width: 100%;
+	height: 15px;
+	font-size: 1px;
+}
+.roundedcornr_content_149463, .roundedcornr_bottom_149463 {
+	margin-top: 10px;
+}
+.roundedcornr_content_149463 {
+	padding: 0 15px;
+}
+/* ============== Tamat Rounded Cornr BG biru ============== */
+/* ============== Mula Rounded Cornr BG Putih ============== */
+.roundedcornr_box_597284 {
+	background: url(../gambar/border/roundedcornr_597284_tl.png) no-repeat top left;
+}
+.roundedcornr_top_597284 {
+	background: url(../gambar/border/roundedcornr_597284_tr.png) no-repeat top right;
+}
+.roundedcornr_bottom_597284 {
+	background: url(../gambar/border/roundedcornr_597284_bl.png) no-repeat bottom left;
+}
+.roundedcornr_bottom_597284 div {
+	background: url(../gambar/border/roundedcornr_597284_br.png) no-repeat bottom right;
+}
+.roundedcornr_content_597284 {
+	background: url(../gambar/border/roundedcornr_597284_r.png) top right repeat-y;
+}
+.roundedcornr_top_597284 div, .roundedcornr_top_597284, .roundedcornr_bottom_597284 div, .roundedcornr_bottom_597284 {
+	width: 100%;
+	height: 15px;
+	font-size: 1px;
+}
+.roundedcornr_content_597284, .roundedcornr_bottom_597284 {
+	margin-top: -19px;
+}
+.roundedcornr_content_597284 {
+	padding: 0 15px;
+}
+/* ============== Tamat Rounded Cornr BG Putih ============== */
+.roundedcornr_box_903592 {
+	background: url(../gambar/border/roundedcornr_903592_tl.png) no-repeat top left;
+}
+.roundedcornr_top_903592 {
+	background: url(../gambar/border/roundedcornr_903592_tr.png) no-repeat top right;
+}
+.roundedcornr_bottom_903592 {
+	background: url(../gambar/border/roundedcornr_903592_bl.png) no-repeat bottom left;
+}
+.roundedcornr_bottom_903592 div {
+	background: url(../gambar/border/roundedcornr_903592_br.png) no-repeat bottom right;
+}
+.roundedcornr_content_903592 {
+	background: url(../gambar/border/roundedcornr_903592_r.png) top right repeat-y;
+}
+.roundedcornr_top_903592 div, .roundedcornr_top_903592, .roundedcornr_bottom_903592 div, .roundedcornr_bottom_903592 {
+	width: 100%;
+	height: 15px;
+	font-size: 1px;
+}
+.roundedcornr_content_903592, .roundedcornr_bottom_903592 {
+	margin-top: -19px;
+}
+.roundedcornr_content_903592 {
+	padding: 0 15px;
+}
+.contentbox {
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #f7f7f7;
+	border: 1px dashed #cccccc;
+}
+.errorbox {
+	border: 1px dashed #cc0000;
+	font-weight: bold;
+	background-color: #FBEEEB;
+	text-align: center;
+	padding: 10px;
+	color: #cc0000;
+}
+.kotakpentadbiran {
+	border: 1px dashed #CC0000;
+	background-color: #FBEEEB;
+	padding: 5px;
+}
+.kotak-testimoni {
+	margin: 10px;
+	padding: 10px;
+	background: #cccdfd;
+	border: 2px solid #02021e;
+	border-radius: 10px;
+}
+.kotak-testimoni img {
+	float: left;
+	margin:0 10px 0 0;
+}
+.sidebar-box {
+	border:solid #d9d9d9 1px;
+	background-color:#F5F5F5;
+	color: #5C5C5C;
+	display:block;
+	margin: 0 0 20px 0px;
+	width: 600px;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	padding: 10px;
+}
+.sub-tajuk-borang {
+	background-color:#ECECEC;
+	border:1px solid #CCC;
+	color:#000000;
+	font-size:18px;
+	margin-bottom:5px;
+	margin-top:5px;
+	padding:4px 8px;
+}
+.bulat {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.sub-tajuk-info {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color:#FFEEEE;
+	border:1px solid #ccc;
+	border-radius:5px;
+	margin:20 20 20px;
+	padding:8px 8px 8px 8px;
+	vertical-align:middle;
+	width:98%;
+}
+.sub-tajuk-hijau {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color:#EEFFFF;
+	border:1px solid #ccc;
+	border-radius:5px;
+	margin:20 20 20px;
+	padding:8px 8px 8px 8px;
+	vertical-align:middle;
+	width:98%;
+}
+.sub-tajuk-merah3 {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color:#FFEEEE;
+	border:1px solid #ccc;
+	border-radius:5px;
+	margin:20 20 20px;
+	padding:8px 8px 8px 8px;
+	vertical-align:middle;
+	width:98%;
+}
+.sub-tajuk-kuning {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color:#FFFFEE;
+	border:1px solid #ccc;
+	border-radius:5px;
+	margin:20 20 20px;
+	padding:8px 8px 8px 8px;
+	vertical-align:middle;
+	width:95%;
+}
+.sub-tajuk-kuning2 {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color:#FFFFEE;
+	border:1px solid #ccc;
+	border-radius:5px;
+	margin:20 20 20px;
+	padding:8px 8px 8px 8px;
+	vertical-align:middle;
+}
+.sub-tajuk-kelabu {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color:#ECECEC;
+	border:1px solid #CCC;
+	color:#000000;
+	font-size:18px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	margin:20 20 20px;
+	padding:8px 8px 8px 8px;
+	vertical-align:middle;
+	width:98%;
+}
+.sub-tajuk-merah {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color:#FFEEEE;
+	border:1px solid #ccc;
+	border-radius:5px;
+	margin:20 20 20px;
+	padding:8px 8px 8px 8px;
+	vertical-align:middle;
+	width:95%;
+}
+.sub-tajuk-merah2 {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color:#FFEEEE;
+	border:1px solid #ccc;
+	border-radius:5px;
+	margin:5 5 0px;
+	padding:2px 2px 2px 2px;
+	vertical-align:middle;
+	width:98%;
+}
+.sub-tajuk-hijau2 {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color:#EEFFFF;
+	border:1px solid #ccc;
+	border-radius:5px;
+	margin:5 5 0px;
+	padding:2px 2px 2px 2px;
+	vertical-align:middle;
+	width:98%;
+}
+
+/***** Form *****/
+form.borang {
+	font-size: 1.0em;
+}
+form.borang legend {
+	padding-left: 0;
+}
+form.borang legend, form.borang label {
+	color: #333;
+}
+form.borang fieldset {
+	border: none;
+}
+form.borang img {
+	border: none;
+}
+form img {
+	border: none;
+}
+form.borang fieldset fieldset {
+	background: none;
+}
+form.borang fieldset p, form.borang fieldset fieldset {
+	padding: 5px 10px 7px;
+}
+form.borang label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: red;
+	font-style: italic
+}
+div.error {
+	display: none;
+}
+input {
+	border: none;
+}
+input img {
+	border: none;
+}
+input.checkbox {
+	border: none;
+}
+input:focus {
+	border: 1px dotted black;
+}
+input.error {
+	border: 1px dotted red;
+}
+form.borang .gray * {
+	color: gray;
+}
+.login {
+	background:#fbfbfb;
+	min-width:0;
+}
+.login * {
+	margin:0;
+	padding:0;
+}
+.login form {
+	margin-left:8px;
+	padding:26px 24px 46px;
+	background:#fff;
+	border:1px solid #e5e5e5;
+	-moz-box-shadow:rgba(200, 200, 200, 0.7) 0 4px 10px -1px;
+	-webkit-box-shadow:rgba(200, 200, 200, 0.7) 0 4px 10px -1px;
+	box-shadow:rgba(200, 200, 200, 0.7) 0 4px 10px -1px;
+}
+#login form p {
+	margin-bottom:0;
+}
+#login form p.submit {
+	padding:0;
+}
