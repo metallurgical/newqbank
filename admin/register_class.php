@@ -23,15 +23,15 @@ if($result_admin = $connect->query($sql_admin))
 if(isset($_POST['daftar']))
 {
 	extract($_POST);
-	//$sql_daftar = "SELECT * FROM teacher WHERE teacher_staffid = '".$teacher_staffid."'";
-	//if($result_daftar = $connect->query($sql_daftar))
-	//{
-		//if($total_daftar = $result_daftar->num_rows)
-		//{
-			//echo "<script language=javascript>alert('ID pengguna telah wujud. Sila cuba lagi.');window.location='register.php';</script>";
-		//}
-		//else
-		//{
+	$sql_daftar = "SELECT * FROM class WHERE class_name = '".$class_name."' AND class_tingkatan = '".$class_tingkatan."'";
+	$result_daftar = $connect->query($sql_daftar);
+	
+		if($result_daftar->num_rows > 0)
+		{
+			echo "<script language=javascript>alert('ID pengguna telah wujud. Sila cuba lagi.');window.location='register_class.php';</script>";
+		}
+		else
+		{
 			$sql_daftar = "INSERT INTO class (class_name,class_tingkatan) VALUES ('".$class_name."','".$class_tingkatan."')";
 			if($result_daftar = $connect->query($sql_daftar))
 			{
@@ -41,7 +41,7 @@ if(isset($_POST['daftar']))
 			{
 				echo "<script language=javascript>alert('Pendaftaran tidak berjaya. Sila cuba lagi.');window.location='register_class.php';</script>";
 			}
-		//}
+		}
 	//}
 }
 ?>
@@ -103,16 +103,12 @@ if(isset($_POST['daftar']))
 																<td width="480" align="left">
 																	<span id="sprytextfield1">
 																		<select name="class_tingkatan" id="student_state" class="input">
-																				<option value="" selected="selected">-- Sila Pilih kelas --</option>
+																				<option value="" selected="selected">-- Sila Pilih Tingkatan --</option>
 																				<option value="1">1</option>
-																				<option 												<option value="2">2</option>
-																				<option 
+																				<option value="2">2</option>
 																				<option value="3">3</option>
-																				<option 
                                                                                 <option value="4">4</option>
-																				<option 
 																				<option value="5">5</option>
-                                                                                <option 
                                                                              </select>
 																	</span>
 																</td>
@@ -121,7 +117,14 @@ if(isset($_POST['daftar']))
 																<td width="270" align="right">Nama Kelas  :</td>
 																<td width="480" align="left">
 																	<span id="sprytextfield1">
-																		<input name="class_name" type="text" class="input" id="class_name" value="" size="45" required/>
+																		<!-- <input name="class_name" type="text" class="input" id="class_name" value="" size="45" required/> -->
+																		<select name="class_name" id="class_name" class="input">
+																				<option value="" selected="selected">-- Sila Pilih kelas --</option>
+																				<option value="Amanah">Amanah</option>
+																				<option value="Berkat">Berkat</option>
+																				<option value="Cekal">Cekal</option>
+                                                                                <option value="Dedikasi">Dedikasi</option>
+                                                                             </select>
 																		<font color="#FF0000"><strong>*</strong></font><br/>
 																		<span class="textfieldRequiredMsg">Nama kelas di perlukan.</span>
 																	</span>

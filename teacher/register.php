@@ -4,10 +4,10 @@ include('../config.php');
 
 if(isset($_POST['submit']))
 {
-	$sql_daftar = "SELECT * FROM student WHERE student_username = '".$username."'";
-	if($result_daftar = $connect->query($sql_daftar))
-	{
-		if($total_daftar = $result_daftar->num_rows)
+	$sql_daftar = "SELECT * FROM student WHERE student_username = '".$student_username."' or student_ic = '".$student_ic."'";
+	$result_daftar = $connect->query($sql_daftar);
+	
+		if($result_daftar->num_rows > 0)
 		{
 			echo "<script language=javascript>alert('ID pengguna telah wujud. Sila cuba lagi.');window.location='register.php';</script>";
 		}
@@ -24,7 +24,7 @@ if(isset($_POST['submit']))
 				echo "<script language=javascript>alert('Pendaftaran tidak berjaya. Sila cuba lagi.');window.location='register.php';</script>";
 			}
 		}
-	}
+	
 }
 
 if(@$_GET['action']=="logout")
